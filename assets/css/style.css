@@ -190,3 +190,25 @@ body {
 .top-button:hover {
   background-color: #e6c86d;
 }
+/* 右上固定の2ボタン配置 */
+.top-buttons {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  gap: 12px; /* ボタンの間隔 */
+  z-index: 9999; /* 画像より前に出す */
+}
+
+.top-buttons a {
+  padding: 10px 16px;
+  background-color: #f5d97e;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.top-buttons a:hover {
+  background-color: #e6c86d;
+}
