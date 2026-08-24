@@ -141,6 +141,7 @@ body {
   left: 10%;
   width: 30%;
   color: #f5d97e;
+  z-index: 10;
 }
 
 .char-scroll-img {
