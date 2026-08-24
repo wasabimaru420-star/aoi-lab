@@ -173,3 +173,20 @@ body {
 .char-scroll-img.char2-pos {
   right: -5% !important;   /* ← ここで右に移動する量を調整 */
 }
+/* 右上固定のトップページボタン */
+.top-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 18px;
+  background-color: #f5d97e;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  z-index: 9999; /* ← 画像より前に出すため必須 */
+}
+
+.top-button:hover {
+  background-color: #e6c86d;
+}
