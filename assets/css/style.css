@@ -108,3 +108,59 @@ body {
   font-size: 1.1rem;
   line-height: 1.8;
 }
+/* キャラ一覧ページ */
+.char-icon-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.char-icon {
+  text-align: center;
+  color: #f5d97e;
+  text-decoration: none;
+}
+
+.char-icon img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* 個別キャラページ */
+.char-page {
+  position: relative;
+  height: 200vh;
+}
+
+.char-fixed-text {
+  position: fixed;
+  top: 20%;
+  left: 10%;
+  width: 30%;
+  color: #f5d97e;
+}
+
+.char-scroll-img {
+  position: absolute;
+  top: 0;
+  right: 10%;
+  width: 40%;
+}
+
+.char-scroll-img img {
+  width: 100%;
+  position: sticky;
+  top: 20%;
+}
+
+.char-buttons .btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #f5d97e;
+  color: #f5d97e;
+  text-decoration: none;
+}
