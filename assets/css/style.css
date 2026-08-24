@@ -141,6 +141,7 @@ body {
   left: 10%;
   width: 30%;
   color: #f5d97e;
+  z-index: 10;
 }
 
 .char-scroll-img {
@@ -151,6 +152,7 @@ body {
 }
 
 .char-scroll-img img {
+  z-index: 1;
   width: 180%;
   position: sticky;
   top: 10%;
@@ -166,10 +168,4 @@ body {
 }
 .char-scroll-img img.char2-img {
   width: 110% !important;
-}
-.char-page {
-  position: relative;
-  height: 200vh;
-  display: flex;
-  align-items: center;
 }
