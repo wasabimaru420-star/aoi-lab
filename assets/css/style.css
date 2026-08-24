@@ -146,7 +146,7 @@ body {
 .char-scroll-img {
   position: absolute;
   top: 0;
-  right: 40%;
+  right: 35%;
   width: 40%;
 }
 
@@ -165,5 +165,5 @@ body {
   text-decoration: none;
 }
 .char-scroll-img img.char2-img {
-  width: 120% !important;
+  width: 1000% !important;
 }
