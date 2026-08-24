@@ -164,3 +164,7 @@ body {
   color: #f5d97e;
   text-decoration: none;
 }
+/* キャラ2だけ画像を小さくする */
+.char2-img {
+  width: 120%;
+}
