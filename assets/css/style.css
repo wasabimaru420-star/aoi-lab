@@ -171,5 +171,5 @@ body {
 }
 /* キャラ2だけ右に移動（sticky維持・分身なし） */
 .char-scroll-img.char2-pos {
-  right: -20% !important;   /* ← ここで右に移動する量を調整 */
+  right: -5% !important;   /* ← ここで右に移動する量を調整 */
 }
