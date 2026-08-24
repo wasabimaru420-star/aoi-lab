@@ -169,9 +169,3 @@ body {
 .char-scroll-img img.char2-img {
   width: 110% !important;
 }
-/* キャラ2だけ右に移動（優先度MAX） */
-.char-scroll-img img.char2-pos {
-  position: absolute !important;
-  right: -10% !important;   /* ← ここで右に移動する量を調整 */
-  left: auto !important;    /* ← left の指定を完全に無効化 */
-}
